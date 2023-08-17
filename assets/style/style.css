@@ -399,9 +399,9 @@ header
 }
 
 
-.infograph-icon-blue { color: #0071bd ;}
+.infograph-icon-blue { color: #0071bd ; margin-left: 2rem;}
 .infograph-icon-green {color: #35c154 ;}
-.infograph-icon-red {color: #ff5846 ;}
+.infograph-icon-red {color: #ff5846 ; margin-left: 2rem;}
 .infograph-icon-yellow {color: #feb300 ;}
 
 
