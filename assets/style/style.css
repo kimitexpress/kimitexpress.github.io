@@ -568,6 +568,26 @@ footer
     font-size: 3.5rem;
     margin-bottom: 1rem;
 }
+
+.copyright
+{
+    display: flex;
+    background-color: var(--secondary-color);
+    color: white;
+    justify-content: center;
+}
+
+.copyright span,a
+{
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.copyright a:hover
+{
+    text-decoration: underline;
+}
+
 @media only screen and(min-width:991.5px) and (max-width: 1200px)  {
     /* html {
     font-size: 30%;
