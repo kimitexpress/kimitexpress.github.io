@@ -19,3 +19,8 @@ window.onscroll = () => {
         }
     })
 }
+
+// for closing the navbar after cliking its links
+$('.navbar-collapse a').click(function() {
+  $(".navbar-collapse").collapse('hide');
+});
