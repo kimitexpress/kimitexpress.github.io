@@ -30,8 +30,6 @@
 ::-webkit-scrollbar-thumb
 {
     background-color: var(--primary-color);
-    /* border: 1px solid rgb(152, 152, 152); */
-    /* border-radius: 10rem; */
 }
 
 .progress-bar
@@ -69,16 +67,10 @@ body
 {
     direction: rtl;
     font-family: cairo;
-    /* overflow-x: hidden; */
     margin: 0;
     padding: 0;
     height: 100vh;
     width: 100%;
-}
-
-header
-{
-    /* margin-bottom: 80vh; */
 }
 
 .navbar
@@ -95,7 +87,6 @@ header
 .bg-body-tertiary
 {
     background-color: rgba(255, 255, 255,) !important;
-    /* background-color: rgba(255, 255, 255, .5) !important; */
 }
 .navbar-brand img
 {
@@ -148,12 +139,10 @@ header
 
 .nav-link.active
 {
-    /* color: var(--secondary-color) !important; */
     color: white !important;
     font-weight: bold;
     background-color: var(--primary-color);
     transition: all .2s ease-in-out;
-
 }
 
 .nav-link
@@ -180,9 +169,7 @@ header
 
 .carousel-item img
 {
-    /* height: 90vh !important; */
     height: 80vh;
-    /* width: 100vw !important; */
     object-fit: cover;
     filter: brightness(0.8) blur(2px);
 }
@@ -195,12 +182,10 @@ header
     left: 15%; 
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-    /* color: var(--primary-color); */
     color: white !important;
     text-align: center;
     font-size: 3.5rem;
     font-weight: 800;
-    /* width: 60vw; */
 }
 
 .carousel-caption .h3 .p
@@ -212,10 +197,6 @@ header
 {
     position: relative;
     top: 55vh;
-    /* right: 50vw; */
-    /* transform: translate(50%, -50%); */
-    /* width: 20rem; */
-    /* border: 1px solid red; */
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -226,7 +207,6 @@ header
 .carousel-indicators [data-bs-target]
 {
     height: .5rem !important;
-    /* border-radius: 1.2rem !important; */
     width: 5rem;
 }
 
@@ -322,7 +302,6 @@ header
     color: var(--primary-color);
     text-align: center;
     font-size: 3rem;
-    /* margin-top: 6rem; */
     margin-bottom: 6rem;
 }
 
@@ -339,7 +318,6 @@ header
 .info-box
 {
     height: 12rem;
-
 }
 
 .info-icon
@@ -358,26 +336,10 @@ header
 /* service section  */
 .service-section
 {
-    /* background-color: var(--secondary-color); */
     background-image: url(../imgs/how\ we\ works.jpeg);
     height: fit-content;
     padding-bottom: 5rem;
-    /* object-fit: cover; */
-    /* filter: brightness(80%) blur(1px); */
 }
-
-/* .service-section-bg
-{
-    background-image: url(../imgs/how\ we\ works.jpeg);
-    height: 50rem;
-    width: 100%;
-    position: absolute;
-    top: 189vh;
-    z-index: -1;
-    object-fit: cover;
-    filter: brightness(60%) blur(2px);
-    display: none;
-} */
 
 .infograph-wrapper
 {
@@ -571,11 +533,6 @@ footer
     font-size: 2rem;
 }
 
-/* .social-list
-{
-    display: flex !important;
-} */
-
 .footer-social
 {
     font-size: 3.5rem;
@@ -590,7 +547,7 @@ footer
     justify-content: center;
 }
 
-.copyright span,a
+.copyright span a
 {
     margin: 1rem;
     font-size: 1.5rem;
@@ -601,6 +558,7 @@ footer
     text-decoration: underline;
 }
 
+/* wide screens  */
 @media only screen and(min-width:991.5px) and (max-width: 1200px)  {
 
     .contact-details
@@ -614,6 +572,7 @@ footer
     }
 }
 
+/* general for not desktop view  */
 @media only screen and (max-width: 991.5px) {
     .navbar
     {
@@ -689,6 +648,61 @@ footer
     }
 }
 
+/* for landscaping mode on mobile phone */
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+    .navbar
+    {
+        height: 10rem !important;
+    }
+    .navbar-brand
+    {
+        margin-top: 0;
+    }
+
+    .navbar-brand img {
+        min-height: 6rem;
+        min-width: 6rem;
+        margin-top: 0;
+    }
+
+    .carousel-caption
+    {
+        font-size: 2rem;
+        bottom: 44vh;
+    }
+
+    .carousel-caption h2
+    {
+        font-size: 1.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .carsouel-contact
+    {
+        top: 42vh;
+        height: 20vh;
+    }
+
+    .company-whatsapp
+    {
+        font-size: 1.5rem;
+        padding: .5rem 3rem;
+    }
+
+    .company-messenger
+    {
+        font-size: 1.3rem;
+        padding: .4rem 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .carousel-indicators
+    {
+        margin-bottom: 2rem;
+    }
+}
+
+/* tablets and wider screens  */
 @media only screen and (min-width: 665px) and (max-width: 991.5px) {
     .navbar
     {
@@ -817,7 +831,13 @@ footer
     }
 }
 
+/* mobile screens  */
 @media only screen and (max-width: 665px) {
+
+    .navbar
+    {
+        height: 9rem;
+    }
 
     .navbar-toggler
     {
@@ -829,6 +849,21 @@ footer
         margin-right: 2rem;
     }
 
+    .navbar-brand img {
+        min-height: 7rem;
+        min-width: 7rem;
+        margin: 0.5rem;
+    }
+
+    .carousel
+    {
+        margin-top: 8rem;
+    }
+
+    .about-section
+    {
+        margin-top: 3rem;
+    }
 
     .company-whatsapp
     {
@@ -961,7 +996,7 @@ footer
         font-size: 1.4rem;
     }
 
-    .copyright span, a {
+    .copyright span a {
         margin: 0.5rem;
         font-size: 1.2rem;
         text-align: center;
