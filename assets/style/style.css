@@ -196,7 +196,7 @@ body
 .carsouel-contact
 {
     position: relative;
-    top: 55vh;
+    top: 53vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -261,6 +261,20 @@ body
 {
     background-color: #006AFF;
     color: white;
+}
+
+
+.company-insta
+{
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.insta-icon
+{
+    margin-right: .5rem;
 }
 
 .contacts-icon
@@ -535,7 +549,7 @@ footer
 
 .footer-social
 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -659,6 +673,14 @@ footer
         margin-top: 0;
     }
 
+    .navbar-nav
+    {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        justify-items: center !important;
+        height: 20rem !important;
+    }
+
     .navbar-brand img {
         min-height: 6rem;
         min-width: 6rem;
@@ -667,13 +689,13 @@ footer
 
     .carousel-caption
     {
-        font-size: 2rem;
+        font-size: 1.8rem;
         bottom: 44vh;
     }
 
     .carousel-caption h2
     {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         margin-bottom: .5rem;
     }
 
@@ -685,20 +707,31 @@ footer
 
     .company-whatsapp
     {
-        font-size: 1.5rem;
-        padding: .5rem 3rem;
+        font-size: 1.3rem;
+        padding: .3rem 2.7rem;
     }
 
     .company-messenger
     {
-        font-size: 1.3rem;
-        padding: .4rem 2.5rem;
+        font-size: 1.2rem;
+        padding: .3rem 2.2rem;
         margin-top: 1rem;
+    }
+
+    .company-insta
+    {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .contacts-icon
+    {
+        font-size: 1.8rem;
     }
 
     .carousel-indicators
     {
-        margin-bottom: 2rem;
+        margin-bottom: 2.8rem;
     }
 }
 
@@ -885,6 +918,13 @@ footer
         margin-top: 2rem;
     }
 
+    .company-insta
+    {
+        font-size: 1.2rem;
+        color: white;
+        margin-top: 1rem;
+    }
+
     .carousel-caption
     {
         bottom: 29vh;
@@ -903,7 +943,7 @@ footer
 
     .carsouel-contact
     {
-        top: 57vh;
+        top: 54vh;
     }
 
     .about-grid
