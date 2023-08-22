@@ -1031,6 +1031,17 @@ footer
         justify-items: center;
     }
 
+    .social-list
+    {
+        flex-wrap: wrap;
+        padding: 0 !important;
+    }
+
+    .social-list:first-child
+    {
+        width: 100%;
+    }
+
     footer
     {
         height: fit-content;
