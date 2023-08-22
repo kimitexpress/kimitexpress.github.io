@@ -647,10 +647,10 @@ footer
         margin-right: 6rem;
     }
 
-    .navbar-brand img {
-        min-height: 8rem;
-        min-width: 8rem;
-        margin: 1rem;
+    .navbar-brand .logo {
+        max-height: 9rem;
+        max-width: fit-content;
+        margin-left: 2rem;
     }
 
     .infograph-text-box
@@ -675,7 +675,7 @@ footer
     .navbar
     {
         height: 7rem !important;
-        background-color: rgba(250, 250, 250, .13) !important;
+        /* background-color: rgba(250, 250, 250, .13) !important; */
     }
     .navbar-brand
     {
@@ -690,10 +690,11 @@ footer
         height: 20rem !important;
     }
 
-    .navbar-brand img {
-        min-height: 6rem !important;
-        min-width: 6rem !important;
-        margin-top: 0 !important;
+    .navbar-brand .logo {
+        max-height: 7rem !important;
+        max-width: fit-content !important;
+        margin-left: 2rem !important;
+        margin: 0 !important;
     }
 
     #home
@@ -812,10 +813,10 @@ footer
         margin-right: 6rem;
     }
 
-    .navbar-brand img {
-        min-height: 8rem;
-        min-width: 8rem;
-        margin: 1rem;
+    .navbar-brand .logo {
+        max-height: 9rem;
+        max-width: fit-content;
+        margin-left: 2rem;
     }
 
     .about-grid
@@ -906,10 +907,10 @@ footer
         margin-right: 2rem;
     }
 
-    .navbar-brand img {
-        min-height: 7rem;
-        min-width: 7rem;
-        margin: 0.5rem;
+    .navbar-brand .logo {
+        max-height: 7rem;
+        max-width: fit-content;
+        margin-left: 2rem;
     }
 
     .carousel
