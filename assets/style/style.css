@@ -517,6 +517,7 @@ footer
 .footer-logo
 {
     height: 10rem;
+    border-radius: 50%;
 }
 
 .footer-logo-box
