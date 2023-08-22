@@ -754,6 +754,31 @@ footer
     {
         margin-bottom: 2.8rem;
     }
+
+    .about-grid
+    {
+        grid-row-gap: 3rem;
+    }
+    .info-icon
+    {
+        font-size: 3rem;
+    }
+
+    .info-text
+    {
+        font-size: 1.5rem;
+    }
+
+    .footer-list-header 
+    {
+        font-size: 2rem;
+    }
+
+    .footer-link 
+    {
+        color: white;
+        font-size: 1.5rem;
+    }
 }
 
 /* tablets and wider screens  */
