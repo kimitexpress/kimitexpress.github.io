@@ -604,7 +604,8 @@ footer
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 75vh;
+        /* height: 48rem; */
+        height: 83vh;
         padding: 0;
     }
 
@@ -798,6 +799,8 @@ footer
     {
         background-color: #fff;
         width: 100vw;
+        position: absolute !important;
+        top: 9rem !important;
     }
 
     .navbar-brand
@@ -903,6 +906,12 @@ footer
         max-height: 7rem;
         max-width: fit-content;
         margin-left: 2rem;
+    }
+
+    .navbar-collapse
+    {
+        position: absolute !important;
+        top: 9rem !important;
     }
 
     .carousel
