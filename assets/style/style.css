@@ -93,10 +93,11 @@ body
 {
     background-color: rgba(255, 255, 255,) !important;
 }
-.navbar-brand img
+.navbar-brand .logo
 {
-    min-height: 10rem;
-    min-width: 10rem;
+    max-height: 9rem;
+    max-width: fit-content;
+    margin-left: 2rem;
 }
 
 .navbar-toggler
@@ -673,7 +674,8 @@ footer
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
     .navbar
     {
-        height: 10rem !important;
+        height: 7rem !important;
+        background-color: rgba(250, 250, 250, .13) !important;
     }
     .navbar-brand
     {
@@ -689,15 +691,25 @@ footer
     }
 
     .navbar-brand img {
-        min-height: 6rem;
-        min-width: 6rem;
+        min-height: 6rem !important;
+        min-width: 6rem !important;
+        margin-top: 0 !important;
+    }
+
+    #home
+    {
+        margin-top: 0;
+    }
+
+    .carousel
+    {
         margin-top: 0;
     }
 
     .carousel-caption
     {
         font-size: 1.8rem;
-        bottom: 44vh;
+        bottom: 18rem;
     }
 
     .carousel-caption h2
@@ -706,10 +718,15 @@ footer
         margin-bottom: .5rem;
     }
 
+    .carousel-item img
+    {
+        height: 92vh;
+    }
+
     .carsouel-contact
     {
-        top: 42vh;
-        height: 20vh;
+        top: 18rem;
+        height: 12rem;
     }
 
     .company-whatsapp
