@@ -706,7 +706,8 @@ footer
     .carousel-caption
     {
         font-size: 1.8rem;
-        bottom: 18rem;
+        /* bottom: 16rem; */
+        top: 24vh;
     }
 
     .carousel-caption h2
@@ -722,7 +723,8 @@ footer
 
     .carsouel-contact
     {
-        top: 18rem;
+        /* top: 20rem; */
+        top: 50vh;
         height: 12rem;
     }
 
@@ -752,7 +754,7 @@ footer
 
     .carousel-indicators
     {
-        margin-bottom: 2.8rem;
+        /* margin-bottom: 2.8rem; */
     }
 
     .about-grid
