@@ -668,6 +668,16 @@ footer
 
 /* for landscaping mode on mobile phone */
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
+    
+    .fs-1 {
+        font-size: calc(1.2rem + 1vw)!important;
+    }
+
+    .fs-3
+    {
+        font-size: calc(1.1rem + .6vw)!important
+    }
+
     .navbar
     {
         height: 6rem !important;
