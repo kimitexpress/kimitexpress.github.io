@@ -670,8 +670,7 @@ footer
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
     .navbar
     {
-        height: 7rem !important;
-        /* background-color: rgba(250, 250, 250, .13) !important; */
+        height: 6rem !important;
     }
     .navbar-brand
     {
@@ -687,10 +686,15 @@ footer
     }
 
     .navbar-brand .logo {
-        max-height: 7rem !important;
+        max-height: 5.5rem !important;
         max-width: fit-content !important;
         margin-left: 2rem !important;
         margin: 0 !important;
+    }
+
+    .navbar-toggler-icon
+    {
+        font-size: 2.5rem;
     }
 
     #home
@@ -780,6 +784,11 @@ footer
     {
         color: white;
         font-size: 1.5rem;
+    }
+
+    .our-page
+    {
+        margin-top: 0 !important;
     }
 }
 
