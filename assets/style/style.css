@@ -659,6 +659,11 @@ footer
         padding-left: .5rem;
     }
 
+    .carousel-indicators
+    {
+        direction: ltr;
+    }
+
     .footer-email
     {
         white-space: break-spaces;
@@ -705,6 +710,12 @@ footer
     .navbar-toggler-icon
     {
         font-size: 2.5rem;
+    }
+
+    .navbar-collapse
+    {
+        right: 0 !important;
+        top: 6rem !important;
     }
 
     #home
@@ -845,8 +856,8 @@ footer
     {
         background-color: #fff;
         width: 100vw;
-        position: absolute !important;
-        top: 9rem !important;
+        position: absolute;
+        top: 9rem;
     }
 
     .navbar-brand
@@ -970,6 +981,7 @@ footer
     {
         position: absolute !important;
         top: 9rem !important;
+        right: 0;
     }
 
     .carousel
