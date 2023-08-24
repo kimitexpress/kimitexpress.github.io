@@ -664,6 +664,7 @@ footer
     .carousel-indicators
     {
         direction: ltr;
+        margin-bottom: 0 !important;
     }
 
     .footer-email
