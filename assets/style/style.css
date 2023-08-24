@@ -1044,6 +1044,11 @@ footer
         top: 54vh;
     }
 
+    .carousel-indicators
+    {
+        margin-bottom: 0 !important;
+    }
+
     .about-grid
     {
         grid-gap: 2rem;
