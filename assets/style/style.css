@@ -565,6 +565,8 @@ footer
     background-color: var(--secondary-color);
     color: white;
     justify-items: center;
+    height: 2.2rem;
+    align-items: center;
 }
 
 .copyright span a
