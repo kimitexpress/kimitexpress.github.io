@@ -114,8 +114,6 @@ body
 
 .navbar-toggler-icon {
     display: inline-block;
-    /* width: 1.5em;
-    height: 1.5em; */
     line-height: 4rem;
     font-size: 3rem;
     vertical-align: middle;
@@ -199,7 +197,7 @@ body
 .carsouel-contact
 {
     position: relative;
-    top: 53vh;
+    top: 52vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -207,9 +205,14 @@ body
     justify-content: space-around;
 }
 
+.carousel-indicators
+{
+    direction: ltr;
+}
+
 .carousel-indicators [data-bs-target]
 {
-    height: .5rem !important;
+    height: .5rem;
     width: 5rem;
 }
 
@@ -479,7 +482,6 @@ body
 .call-button
 {
     background-color: #35c154;
-    /* color: white; */
 }
 
 .contact-details-icon-box
@@ -515,11 +517,6 @@ footer
 {
     height: 10rem;
     border-radius: 50%;
-}
-
-.footer-logo-box
-{
-
 }
 
 .footer-logo
@@ -672,6 +669,15 @@ footer
         white-space: break-spaces;
         line-break: anywhere;
     }
+}
+
+/* for adjusting the carsouel  */
+@media only screen and (min-height: 576px) and (max-height: 700px)
+{
+.carsouel-contact
+{
+    top: 45vh;
+}
 }
 
 /* for landscaping mode on mobile phone */
